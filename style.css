@@ -25,21 +25,18 @@ header > * {
 }
 nav {
     display: flex;
-    align-items: baseline;
-    padding-bottom: 10px;
+    align-items: center;
+    justify-content: space-between;
+    
     
 
 }
 .topnav {
     list-style-type: none;
     background-color:none;
-    margin-left: 50px;
     padding: 10px;
-    padding-left: 350px;
     display: flex;
     align-items: baseline;
-  
-    margin-left: 30%;
     
 }
 
@@ -86,7 +83,8 @@ nav {
 .vlogo {
     width: 300px;
     height: 300px;
-    padding-left: 150px;
+    margin-top: -30px;
+    
     /**padding-top: 5px;**/
 }
   
@@ -105,7 +103,7 @@ nav {
     .intro {
         display: flex;
         align-items: center;
-        
+        margin-top: -80px;
     }
 
     .intro-right {
