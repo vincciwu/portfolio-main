@@ -1,0 +1,713 @@
+html {
+    font-family: 'Quicksand', sans-serif;
+    display: flex;
+    flex-direction: column;
+    }
+
+header  {
+    display: flex;
+    background-image: url("images/introbg2.png");
+    /*background-size: auto;*/
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    flex-direction: column;
+    
+}
+footer {
+
+    background-image: url("images/footerBackground.png");
+    background-size: 100% 100%;
+}
+
+
+header > * {
+    margin: 5px;
+}
+nav {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 10px;
+    
+
+}
+.topnav {
+    list-style-type: none;
+    background-color:none;
+    margin-left: 50px;
+    padding: 10px;
+    padding-left: 350px;
+    display: flex;
+    align-items: baseline;
+  
+    margin-left: 30%;
+    
+}
+
+.topnav > * {
+    margin-left: 70px;
+}
+/* Underline styles */
+.topnav a {
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+  }
+  
+  /* Fade in */
+  .topnav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.25em;
+    border-radius: 20%;
+    background-color: hotpink;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+ .topnav a:hover::after,
+ .topnav a:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+  }
+  
+  .topnav a::after {
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+  }
+  
+  .topnav a:hover::after,
+  .topnav a:focus::after{
+    transform: scale(1);
+  }
+.vlogo {
+    width: 300px;
+    height: 300px;
+    padding-left: 150px;
+    /**padding-top: 5px;**/
+}
+  
+.topnav a {
+    float:left;
+    color: black;
+    font-weight:500;
+    text-align: right;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+    
+    }
+    .intro {
+        display: flex;
+        align-items: center;
+        
+    }
+
+    .intro-right {
+text-align: center;
+margin-left: 200px;
+    }
+    .introContainer{
+        width: 100%;
+        margin-right: 250px;
+        margin-top: 80px;
+        margin-bottom: 100px;
+        text-align: center;   
+    }
+
+    .intro-right h1 {
+        font-weight: 300;
+        font-size: 40px;
+        
+    }
+    .intro-right h2 {
+        font-family: 'Cedarville Cursive', cursive;
+        font-size: 65px;
+        padding-top: 30px;
+        
+      
+    }
+
+    .intro-right h3 {
+        font-size:25px;
+        padding: 10px;
+       
+    }
+    .intro-right h4 {
+        font-size: 15px;
+        padding-bottom: 40px;
+       
+    }
+
+.aboutmeP  {
+            font-size: 20px;
+            color: black;
+            font-style: italic;
+            display: flex;
+            flex-direction: column;
+
+          
+
+}
+
+
+    
+    .vincciPic {
+        padding:50px;
+        margin-left: 220px;
+        margin-top: 30px;
+
+    }
+.intern-main-container {
+    display: flex;
+}
+.intern-grid-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+    
+}
+
+.intern-detail-1 {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  grid-row-start: 2;
+  grid-row-end: 3;
+  font-size: 20px;
+  margin-top: 100px;
+
+}
+.intern-detail-2 {
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 3;
+    margin-top: 100px;
+  }
+  .intern-detail-3 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 3;
+    grid-row-end: 4;
+    width: 30vw;
+    background-color: #FAAFA340;
+    border-radius: 10px;
+    word-wrap: break-word;
+    padding: 10px;
+    margin-bottom: 100px;
+    
+  }
+
+  .intern-detail-3 h1 p {
+      margin-left: 20px;
+  }
+  .img-container {
+      display: flex;
+     justify-content: center;
+     text-align: center;
+  }
+  .web-design-img {
+      max-width: 50px; 
+  }
+
+  /*
+  .intern-detail-4 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 3;
+    width: 30vw;
+    background-color: #FAAFA340;
+    border-radius: 10px;
+    word-wrap: break-word;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+*/
+.house-img{
+    max-width: 400px;
+    padding: 150px;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 5;
+
+}
+.subheader{
+        text-align: center;
+        margin-top: 100px;
+        font-size: 30px;
+    }
+.downArrow {
+    width: 25px;
+    height: 25px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  padding-bottom: 50px;
+  padding-top: 10px;
+
+}
+
+.mainCaseStudyContainer {
+        display: flex;
+        display: grid;
+        grid-template-rows: 50% 50%;
+       justify-content: center;
+   
+        
+    }
+
+    .caseStudy00Container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("images/casestudy1bg.png");
+        background-repeat: no-repeat;
+       padding-top: 30px;
+       padding-right: 100px;
+      
+    }
+
+    .case00Content {
+        
+        margin-left: 230px;
+        margin-bottom: 100px;
+        min-width: 400px;
+        max-width: 400px;
+      
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding: 20px;
+       
+    }
+    .casestudy01image {
+        display: flex;
+        width: 529px;
+        height: 348px;
+        padding-top: 30px;
+        padding-left: 50px;
+        
+    }
+    .casestudy002image {
+        display: flex;
+     padding-top: 50px;
+     padding-left: 40px;
+        width: 141px;
+        height: 285px;
+    }
+  
+
+    .caseIntro00 h2{
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .caseIntro00 h3 {
+        padding-top:5px;
+        font-size: 14px;
+        color: #7E7F7C;
+    }
+    .caseIntro00 p {
+        font-size: 13px;
+        padding-top: 10px;
+        color: #7E7F7C;
+    }
+    .Task00 h3{
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .Task00 p{
+        font-size: 12px;
+        padding-top:5px;
+        color: #7E7F7C;
+    }
+    .goal00 h3 {
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .goal00 p{
+        font-size: 12px;
+        padding-top:5px; 
+        color: #7E7F7C;
+    }
+
+
+    .caseStudy1Container{
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 600px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("images/casestudy2bg.png");
+        background-repeat: no-repeat;
+      /** padding-top: 30px;**/
+       padding-right: 100px;
+      
+    }
+
+
+    .casestudy01image {
+        display: flex;
+        width: 141px;
+        height: 285px;
+        padding-top: 30px;
+        padding-left: 100px;
+        
+    }
+    .casestudy02image {
+        display: flex;
+     padding-top: 50px;
+     padding-left: 40px;
+        width: 141px;
+        height: 285px;
+    }
+    .case1Content {
+        
+        margin-left: 230px;
+        margin-bottom: 100px;
+        min-width: 400px;
+        max-width: 400px;
+      
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding: 20px;
+       
+    }
+
+  
+
+    .caseIntro1 h2{
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .caseIntro1 h3 {
+        padding-top:5px;
+        font-size: 14px;
+        color: #7E7F7C;
+    }
+    .caseIntro1 p {
+        font-size: 13px;
+        padding-top: 10px;
+        color: #7E7F7C;
+    }
+    .Task1 h3{
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .Task1 p{
+        font-size: 12px;
+        padding-top:5px;
+        color: #7E7F7C;
+    }
+    .goal1 h3 {
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .goal1 p{
+        font-size: 12px;
+        padding-top:5px; 
+        color: #7E7F7C;
+    }
+/*
+    .case1Content span:nth-child(2) {
+        color:#CCCCCC;
+        font-size: 14px;
+        text-align: center;
+       
+        
+    }
+    .case1Content span:nth-child(4) {
+        color:#605C5C;
+        padding-left: 15px;
+    }
+    .case1Content span:nth-child(6) {
+        color: black;
+        text-align: left;
+        width: 100%;
+        padding-left: 15px;
+    }
+    .case1Content span:nth-child(8) {
+        color:#605C5C;
+        text-align: left;
+        width: 100%;
+        padding-left: 15px;
+
+    }
+    .case1Content span:nth-child(10) {
+        color: black;
+        text-align: left;
+        width: 100%;
+        padding-left: 15px;
+    }
+    .case1Content span:nth-child(12) {
+        color:#605C5C;
+        text-align: left;
+        width: 100%;
+        padding-left: 25px;
+    }
+    */
+    .case-btn {
+        display: flex;
+        justify-content: center;
+        margin-top: 20px;
+    }
+
+    .viewCaseButton {
+        
+        border-radius: 15px;
+        border: 2px solid rgba(106, 240, 232);
+        background-color: rgba(106, 240, 232, 0.46);
+        width: 110px;
+        height: 40px;
+        align-items: center;
+        font-size: 13px;
+        color: #5B5B5A;
+        margin-bottom: 150px;
+    
+    }
+
+    .caseStudy2Container {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: 500px;
+        margin-left: auto;
+        margin-right: auto;
+        background-image: url("images/casestudy1bg.png");
+        background-repeat: no-repeat;
+        padding-right: 100px;
+       
+     
+    }
+    .casestudy2image{
+        display: flex;
+        margin-top: 30px;
+        width: 402.52px;
+        height: 290px;
+        padding-top:50px;
+        margin-left: 80px;
+  
+    
+    }
+    .case2Content {
+        min-width: 400px;
+        max-width: 400px;
+        margin-bottom: 70px;
+
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding: 20px;
+       margin-left: 170px;
+       
+    }
+
+    .casestudy01image {
+        display: flex;
+        width: 141px;
+        height: 285px;
+        padding-top: 30px;
+        padding-left: 120px;
+        
+    }
+    .casestudy02image {
+        display: flex;
+     padding-top: 50px;
+     padding-left: 20px;
+        width: 141px;
+        height: 285px;
+    }
+    .case1Content {
+        
+        
+        min-width: 400px;
+        max-width: 400px;
+        margin-bottom: 50px;
+        padding-left: 100px;
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       padding: 20px;
+       
+    }
+
+  
+
+    .caseIntro2 h2{
+        font-size: 20px;
+        font-weight: bold;
+        
+    }
+    .caseIntro2 h3 {
+        padding-top:5px;
+        font-size: 14px;
+        color: #7E7F7C;
+    }
+    .caseIntro2 p {
+        font-size: 13px;
+        padding-top: 10px;
+        color: #7E7F7C;
+    }
+    .Task2 h3{
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .Task2 p{
+        font-size: 12px;
+        padding-top:5px;
+        color: #7E7F7C;
+    }
+    .goal2 h3 {
+        padding-top: 10px;
+        font-weight: 500;
+        font-size: 14px;
+    }
+    .goal2 p{
+        font-size: 12px;
+        padding-top:5px; 
+        color: #7E7F7C;
+    }
+
+
+    .viewCaseButton2 {
+        border-radius: 15px;
+        border: 2px solid rgba(106, 240, 232);
+        background-color: rgba(106, 240, 232, 0.46);
+        width: 110px;
+        height: 40px;
+        align-items: center;
+        font-size: 13px;
+        color: #5B5B5A;
+        }
+
+
+        .form-container {
+            width: 100%;
+             
+            display:flex;
+            justify-content: center;
+            
+             padding-bottom: 50px;
+             
+           }
+
+           .form-container form {
+            width: 500px;
+           }
+        .form-title {
+            padding-bottom: 30px;
+        }
+           /* Style inputs with type="text", select elements and textareas */
+           input[type=text], select, textarea {
+               width:100%; /* Full width */
+               padding: 12px; /* Some padding */ 
+               border: 1px solid #ccc; /* Gray border */
+               border-radius: 4px; /* Rounded borders */
+               box-sizing: border-box; /* Make sure that padding and width stays in place */
+               margin-top: 6px; /* Add a top margin */
+               margin-bottom: 16px; /* Bottom margin */
+               resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
+             }
+             
+             /* Style the submit button with a specific background color etc */
+             input[type=submit] {
+               background-color: #FAAFA3;
+               color: white;
+               padding: 12px 20px;
+               border: none;
+               border-radius: 4px;
+               cursor: pointer;
+             }
+             
+             /* When moving the mouse over the submit button, add a darker green color */
+             input[type=submit]:hover {
+               background-color: #FD917F;
+             }
+             
+             /* Add a background color and some padding around the form */
+             .container {
+               border-radius: 5px;
+               /*background-color: #f2f2f2;8 */
+               padding: 20px;
+               width: 40%;
+               margin-left: 500px;
+             }
+
+    .thankYou {
+        font-size: 10px;
+        color: grey;
+        font-style: italic;
+        padding: 150px;
+    }
+    .keepintouch {
+      text-align: center;
+    }
+    .keepintouch h2 {
+        font-size: 15px;
+    }
+    .footerh1 {padding-top: 60px;
+    }
+    .linkedin {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        padding-top: 20px;
+    }
+    .gitHub {
+        width: 50px;
+        height: 50px;
+        padding: 10px;
+        padding-top:20px;
+    }
+    .email {
+        padding: 10px;
+        padding-bottom: 60px;
+
+    }
+  
+    .copyright {
+        text-align: left;
+        font-size: 11px;
+        padding-bottom: 10px;
+        padding-left: 10px;
+    }
+   
+    @media screen and (max-width: 600px) {
+        
+        .mainCaseStudyContainer {
+        flex-direction: column;
+        }
+        .mainCaseStudyContainer > * {
+            width: 100%;
+        }
+        .gridContainer > * {
+            width: 100%;
+        }
+        .gridContainer {
+            
+            grid-template-rows: 300px 300px 300px;
+            grid-template-columns: 1fr;
+            grid-template-areas:
+            "skill1Container" 
+            "skill2Container" 
+            "skill3Container";
+        }
+    }
