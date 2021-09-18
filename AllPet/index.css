@@ -1,0 +1,166 @@
+:root {
+    --font-family: 'Darker Grotesque', sans-serif;
+
+}
+nav {
+    display: flex;
+    align-items: baseline;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    
+
+}
+.topnav {
+    list-style-type: none;
+    background-color:none;
+    margin-left: 50px;
+    overflow:hidden;
+    padding: 10px;
+    display: flex;
+    align-items: baseline;
+    margin-left: 15%;
+    
+}
+
+.topnav > * {
+    margin-left: 70px;
+}
+/* Underline styles */
+.topnav a {
+    display: block;
+    position: relative;
+    padding: 0.2em 0;
+  }
+  
+  /* Fade in */
+  .topnav a::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 0.25em;
+    border-radius: 20%;
+    background-color: hotpink;
+    opacity: 0;
+    transition: opacity 300ms, transform 300ms;
+  }
+  
+ .topnav a:hover::after,
+ .topnav a:focus::after {
+    opacity: 1;
+    transform: translate3d(0, 0.2em, 0);
+  }
+  
+  .topnav a::after {
+    opacity: 1;
+    transform: scale(0);
+    transform-origin: center;
+  }
+  
+  .topnav a:hover::after,
+  .topnav a:focus::after{
+    transform: scale(1);
+  }
+.vlogo {
+    
+    height: 100px;
+    padding-left: 400px;
+    padding-top: 20px;
+}
+.topnav a {
+    float:left;
+    color: black;
+    font-weight:500;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    font-family: 'Roboto', sans-serif;
+    justify-content: space-between;
+
+    }
+ 
+.info1 {
+    padding-left: 70px;
+}
+.myRole {
+    padding-left: 100px;
+    padding-bottom: 20px;
+}
+
+body {
+    font-family: 'Darker Grotesque', sans-serif;
+
+}
+
+.image2 {
+    margin-top: 30px;
+    margin-left: 10px;
+}
+.headerSubtitle {
+    font-weight: 500;
+    padding-top: 30px;
+
+}
+
+.mainHeader {
+   margin-top: 80px;
+   font-size: 30px;
+}
+.h2Header {
+    
+    
+}
+.p1 {
+    font-size: 40px;
+}
+main {
+    background-image: url("images/final.png") ;
+    background-size: 100% 100% ;
+    height: 400px;
+}
+.target {
+    padding-left: 350px;
+}
+.finalHeader {
+    text-align: center;
+   padding-top: 50px;
+}
+.finalinfo{
+   
+   padding-left: 150px;
+}
+footer {
+    background-image: url("images/footerBackground.png");
+    background-size: 100% 100%;
+    text-align: center;
+    width: 100%;
+    font-family: 'Quicksand', sans-serif;
+}
+.footerh1 {padding-top: 60px;
+}
+.linkedin {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    padding-top: 20px;
+}
+.gitHub {
+    width: 60px;
+    height: 60px;
+    padding: 10px;
+    padding-top:20px;
+}
+.email {
+    padding: 10px;
+    padding-bottom: 60px;
+
+}
+
+.copyright {
+    text-align: left;
+    font-size: 11px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
